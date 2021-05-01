@@ -11,6 +11,8 @@ body{
     line-height: 2.4rem;
     color: 2.4rem;
     font-family: 'Oswald', sans-serif;
+    width: 100%;
+    overflow: hidden;
 }
 html,
 body{
