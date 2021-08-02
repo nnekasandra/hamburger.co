@@ -72,10 +72,10 @@ nav{
     top: 0;
     transform: translateX(100%);
     transition: all .25s;
+    position: fixed;
 }
 #navToggle:checked ~ nav{
     transform: translateX(0);
-    position: fixed;
 }
 #navToggle:checked ~ .navtoggle-icon{
     position: fixed;
@@ -589,7 +589,5 @@ label{
     .banner_content h2{
         font-size: 5rem;
     }
-
-
 }
 
